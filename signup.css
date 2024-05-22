@@ -59,3 +59,11 @@ a:hover {
 	color: #23527c;
 	text-decoration: underline;
 }
+@media (max-width: 768px) {
+	.container {
+		width: 100%;
+		margin: 0;
+		border: none;
+		border-radius: 0;
+		box-shadow: none;
+	}}
