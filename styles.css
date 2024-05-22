@@ -101,9 +101,13 @@ footer {
   .product-item {
     width: 25%;
   }
-  @media (max-width : 768px){
-
-   
-  }
-    
+  @media (max-width: 768px) {
+	/* Styles for screens smaller than or equal to 768px */
+	.container {
+		width: 100%;
+		margin: 0;
+		border: none;
+		border-radius: 0;
+		box-shadow: none;
+	}}
  
