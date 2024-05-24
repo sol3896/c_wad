@@ -59,7 +59,11 @@ a:hover {
 	color: #23527c;
 	text-decoration: underline;
 }
+header {
+	text-align: center;
+}
 img {
+	display: inline-block;
 	width: 200px;
 	height: auto;
 }
