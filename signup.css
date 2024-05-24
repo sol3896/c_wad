@@ -4,9 +4,9 @@ body {
 }
 
 .container {
-	width: 500px;
-	margin: 40px auto;
-	padding: 20px;
+	width: 300px;
+	margin: 50px auto;
+	padding: 50px;
 	background-color: #fff;
 	border: 10px solid #ddd;
 	border-radius: 20px;
