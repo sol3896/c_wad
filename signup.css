@@ -67,3 +67,11 @@ a:hover {
 		border-radius: 0;
 		box-shadow: none;
 	}}
+	header {
+		text-align: center;
+	}
+	img {
+		display: inline-block;
+		width: 200px;
+		height: auto;
+	}
