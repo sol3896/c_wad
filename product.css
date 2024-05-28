@@ -89,3 +89,10 @@ table {
   td {
     font-weight: normal;
   }
+  @media (max-width: 768px) {
+    header nav ul li {
+        display: block;
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+}
