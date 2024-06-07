@@ -8,12 +8,10 @@
 </head>
 <body>
     <header>
-        <img src="images/SOL TECH SOLUTIONS.png" alt="SolTech Solutions Logo">
-
+        <img src="images/SOL TECH SOLUTIONS.png" alt="SolTech Solutions Logo" class="logo">
         <h1>Contact Us</h1>
         <nav>
             <ul>
-
                 <li><a href="index.html">Home</a></li>
                 <li><a href="about.html">About</a></li>
                 <li><a href="services.html">Services</a></li>
@@ -22,58 +20,58 @@
                 <li><a href="feedback.html">Feedback</a></li>
                 <li><a href="product.html">Products</a></li>
                 <li><a href="register.html">Register</a></li>
-
             </ul>
         </nav>
     </header>
 
     <main>
-        <section>
+        <section class="contact-info">
             <h2>Contact Information</h2>
             <p>Feel free to reach out to us through the following channels:</p>
             <ul>
                 <li>Email: info@soltech.com</li>
                 <li>Phone: +2545633798</li>
                 <li>Address: 4667 Ngong Road, Nairobi, Nairobi</li>
-                <div class="row">
-                    <div class="content">
-                    <h1>Forms</h1>
-                    <form action="" method="" class="contact_form">
-                        <label for="Fn">Fullname:</label><br>
-                        <input type="text" id="Fn" placeholder="Fullname"><br><br>
-                
-                        <label for="email">Email Address:</label><br>
-                        <input type="email" id="email" name="mail" placeholder="Email address"><br><br>
-                        
-                        <label for="sb">Subject:</label><br>
-                        <select name="" id="sb">
-                            <option value="">---Select Subject-</option>
-                            <option value="1">Email Support</option>
-                            <option value="2">Inquiries</option>
-                            <option value="3">Purchases and Returns</option>
-                        </select>
-                        <br><br>
-                    <label for="ms">Message:</label><br>
-                    <textarea cols="30" rows="7" name="message" id="ms"></textarea><br><br>
-                    
-                    <input type="submit" value="Send Message">
             </ul>
-            <section class="faq">
-                <h2>Frequently Asked Questions</h2>
-                <div class="faq-item">
-                    <h3>How can I contact support?</h3>
-                    <p>You can reach us via email at support@soltech.com or call us at +2545633798.</p>
-                </div>
-            </section>
-            
         </section>
-        <img src="images/contact.jpg "width="20%">
 
+        <section class="contact-form">
+            <h2>Contact Form</h2>
+            <form action="" method="" class="form">
+                <label for="fn">Full Name:</label>
+                <input type="text" id="fn" name="fullname" placeholder="Full Name">
+
+                <label for="email">Email Address:</label>
+                <input type="email" id="email" name="email" placeholder="Email Address">
+
+                <label for="sb">Subject:</label>
+                <select name="subject" id="sb">
+                    <option value="">--- Select Subject ---</option>
+                    <option value="1">Email Support</option>
+                    <option value="2">Inquiries</option>
+                    <option value="3">Purchases and Returns</option>
+                </select>
+
+                <label for="ms">Message:</label>
+                <textarea cols="30" rows="7" name="message" id="ms" placeholder="Your Message"></textarea>
+
+                <input type="submit" value="Send Message">
+            </form>
+        </section>
+
+        <section class="faq">
+            <h2>Frequently Asked Questions</h2>
+            <div class="faq-item">
+                <h3>How can I contact support?</h3>
+                <p>You can reach us via email at support@soltech.com or call us at +2545633798.</p>
+            </div>
+        </section>
+        
+        <img src="images/contact.jpg" alt="Contact Us" class="contact-image">
     </main>
 
     <footer>
         <p>&copy; 2024 SOL TECH SOLUTIONS. All rights reserved.</p>
     </footer>
-
 </body>
 </html>
