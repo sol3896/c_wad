@@ -2,7 +2,9 @@ body {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     margin: 0;
     padding: 0;
+    background-color: #f4f4f4;
 }
+
 header {
     background-color: #333;
     color: #fff;
@@ -12,28 +14,121 @@ header {
 
 header img {
     display: inline-block;
-    width: 200px;
+    width: 150px;
     height: auto;
 }
 
+header h1 {
+    margin: 10px 0;
+}
+
 header nav ul {
-    list-style-type: circle;
+    list-style-type: none;
     margin: 0;
     padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
 }
 
 header nav ul li {
     display: inline;
-    margin-right: 30px;
 }
 
 header nav ul li a {
     color: #fff;
     text-decoration: none;
 }
+
 main {
     padding: 30px;
 }
+
+section {
+    margin-bottom: 30px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+}
+
+.about {
+    background-color: #e0f7fa;
+}
+
+.featured-services {
+    background-color: #e1bee7;
+}
+
+.featured-services .service-item {
+    flex: 1;
+    text-align: center;
+}
+
+.featured-services img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.featured-services {
+    display: flex;
+    gap: 20px;
+}
+
+.testimonials {
+    background-color: #ffe0b2;
+}
+
+.testimonial {
+    background-color: #fff;
+    padding: 20px;
+    border-left: 5px solid #333;
+}
+
+.latest-news {
+    background-color: #c8e6c9;
+}
+
+.latest-news article {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.newsletter {
+    background-color: #fff9c4;
+}
+
+.newsletter form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.newsletter form input,
+.newsletter form button {
+    padding: 10px;
+    font-size: 1em;
+}
+
+.our-team {
+    background-color: #bbdefb;
+}
+
+.team-photo {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
 .btn {
     display: inline-block;
     padding: 10px 20px;
@@ -46,33 +141,17 @@ main {
 .btn:hover {
     background-color: #0056b3;
 }
-footer {
-    background-color: #333;
-    color: #fff;
-    text-align: center;
-    padding: 10px 0;
-}
 
 @media (max-width: 768px) {
+    header nav ul {
+        flex-direction: column;
+    }
+
     header nav ul li {
-        display: block;
-        margin-right: 0;
         margin-bottom: 10px;
     }
-}
-.featured-services img{
-    max-width: 300px; 
-    height: 300px;
-    object-fit: cover;
-}
 
-.featured-services{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-bottom: 20px;
-    padding: 20px;
-    border: 2px solid #ccc;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    .featured-services {
+        flex-direction: column;
+    }
 }
