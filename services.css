@@ -3,6 +3,7 @@ body {
     margin: 0;
     padding: 0;
 }
+
 header {
     background-color: #333;
     color: #fff;
@@ -17,7 +18,7 @@ header img {
 }
 
 header nav ul {
-    list-style-type: none;
+    list-style-type: circle;
     margin: 0;
     padding: 0;
 }
@@ -31,38 +32,18 @@ header nav ul li a {
     color: #fff;
     text-decoration: none;
 }
+
 main {
     padding: 30px;
 }
-section {
-    margin-bottom: 20px;
-}
 
-section h2 {
-    font-size: 24px;
-    margin-bottom: 10px;
-}
-
-section p {
-    font-size: 18px;
-    margin-bottom: 10px;
-}
-
-section ul {
-    list-style-type: disc;
-    margin-left: 20px;
-}
-
-section ul li {
-    font-size: 16px;
-    margin-bottom: 5px;
-}
 footer {
     background-color: #333;
     color: #fff;
     text-align: center;
     padding: 10px 0;
 }
+
 @media (max-width: 768px) {
     header nav ul li {
         display: block;
@@ -71,3 +52,19 @@ footer {
     }
 }
 
+section {
+    margin-bottom: 30px;
+}
+
+h2 {
+    color: #333;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+}
