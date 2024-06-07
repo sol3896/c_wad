@@ -54,6 +54,7 @@ section {
 
 .about {
     background-color: #e0f7fa;
+    text-align: center;
 }
 
 .featured-services {
@@ -63,12 +64,14 @@ section {
 .featured-services .service-item {
 text-align: center;  
 text-align: center;
+
 }
 
 .featured-services img {
 max-width: 200px;
 max-height: 200px; 
 object-fit: cover; 
+
 }
 
 .featured-services {
@@ -98,6 +101,8 @@ object-fit: cover;
 
 .newsletter {
     background-color: #fff9c4;
+    padding: 20px;
+    max-width: 600px;
 }
 
 .newsletter form {
@@ -117,9 +122,10 @@ object-fit: cover;
 }
 
 .team-photo {
-    max-width: 100%;
-    height: auto;
-    border-radius: 8px;
+    max-width: 400px;
+    max-height: 400px;
+    object-fit: cover;
+    object-position: center;
 }
 
 footer {
