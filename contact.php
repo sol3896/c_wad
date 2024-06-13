@@ -59,9 +59,7 @@
         
         <img src="images/contact.jpg" alt="Contact Us" class="contact-image">
     </main>
+    <?php include_once("templates/footer.php");?>
 
-    <footer>
-        <p>&copy; 2024 SOL TECH SOLUTIONS. All rights reserved.</p>
-    </footer>
 </body>
 </html>
