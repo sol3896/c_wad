@@ -11,7 +11,7 @@
         <img src="images/SOL TECH SOLUTIONS.png" alt="SolTech Solutions Logo" class="logo">
         <h1>Welcome to SOL TECH SOLUTIONS</h1>
         <?php include_once("templates/nav.php");?>
-
+z
     </header>
 
     <main>
