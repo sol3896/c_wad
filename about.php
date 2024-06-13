@@ -10,9 +10,9 @@
     <header>
         <img src="images/SOL TECH SOLUTIONS.png" alt="SolTech Solutions Logo" class="logo">
         <h1>About Us</h1>
-        
+        <?php include_once("templates/nav.php");?>
+
     </header>
-<?php include_once("template")
     <main>
         <section class="about-us">
             <p>
