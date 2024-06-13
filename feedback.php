@@ -32,8 +32,7 @@ z
         </section>
     </main>
 
-    <footer>
-        <p>&copy; 2024 SOL TECH SOLUTIONS. All rights reserved.</p>
-    </footer>
+    <?php include_once("templates/footer.php");?>
+
 </body>
 </html>
