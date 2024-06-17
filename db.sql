@@ -12,3 +12,14 @@ CREATE TABLE IF NOT EXISTS feedback (
     updated_at datetime not null default CURRENT_TIMESTAMP on update CURRENT_TIMESTAMP,
     UNIQUE KEY (email)
 );
+
+CREATE TABLE IF NOT EXISTS contact_us (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(255) NOT NULL,
+    email VARCHAR(255) NOT NULL,
+    subject VARCHAR(255) NOT NULL,
+    message TEXT NOT NULL,
+    date_created datetime NOT NULL DEFAULT CURRENT_TIMESTAMP(),
+    updated_at datetime NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+    UNIQUE KEY (email)
+);
