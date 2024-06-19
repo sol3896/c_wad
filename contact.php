@@ -29,7 +29,7 @@
 
         <section class="contact-form">
             <h2>Contact Form</h2>
-            <form action="" method="" class="form">
+            <form action="dbconnections.php" method="POST" class="form">
                 <label for="fn">Full Name:</label>
                 <input type="text" id="fn" name="fullname" placeholder="Full Name">
 
