@@ -1,6 +1,6 @@
 <?php
 // Database connection
-require_once("includes/dbconnections.php");
+require_once("dbconnections.php");
 // Include header and navigation templates
 include_once("templates/nav.php");
 
