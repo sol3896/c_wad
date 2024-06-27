@@ -8,7 +8,7 @@
                 <li><a href="feedback.php">Feedback</a></li>
                 <li><a href="product.php">Products</a></li>
                 <li><a href="register.php">Register</a></li>
-                <li><a href="view_messages.php">Register</a></li>
+                <li><a href="view_messages.php">message</a></li>
 
             </ul>
         </nav>
