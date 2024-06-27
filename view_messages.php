@@ -4,6 +4,7 @@ require_once("dbconnections.php");
 // Include header and navigation templates
 include_once("templates/nav.php");
 
+
 // Delete a record if DelId is set
 if (isset($_GET["DelId"])) {
     $DelId = mysqli_real_escape_string($conn, $_GET["DelId"]);
