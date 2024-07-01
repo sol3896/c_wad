@@ -1,3 +1,20 @@
+<?php
+require_once("dbconnections.php");
+
+if ($_SERVER["REQUEST_METHOD"] == "POST") {
+    $name = mysqli_real_escape_string($conn, $_POST["name"]);
+    $email = mysqli_real_escape_string($conn, $_POST["email"]);
+    $message = mysqli_real_escape_string($conn, $_POST["message"]);
+
+    $sql = "INSERT INTO feedback (name, email, message) VALUES ('$name', '$email', '$message')";
+
+    if ($conn->query($sql) === TRUE) {
+        echo "New record created successfully";
+    } else {
+        echo "Error: " . $sql . "<br>" . $conn->error;
+    }
+}
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
