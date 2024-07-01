@@ -31,7 +31,6 @@ if (isset($_GET["DelId"])) {
         <img src="images/SOL TECH SOLUTIONS.png" alt="SolTech Solutions Logo">
         <h1>Contact Us Messages</h1>
         <?php include_once("templates/nav.php");?>
-
     </header>
 
     <main>
@@ -65,7 +64,7 @@ if ($sel_msg_res->num_rows > 0) {
                         <td><?php echo $sel_msg_row["email"]; ?></td>
                         <td><?php echo substr($sel_msg_row["message"], 0, 50) . '...'; ?></td>
                         <td><?php echo date("d-M-Y H:i", strtotime($sel_msg_row["date_created"])); ?></td>
-                        <td>[ <a href="edit_msg.php?id=<?php echo $sel_msg_row["id"]; ?>">Edit</a> ] [ <a href="?DelId=<?php echo $sel_msg_row["id"]; ?>">Del</a> ]</td>
+                        <td>[ <a href="edit_contact.php?id=<?php echo $sel_msg_row["id"]; ?>">Edit</a> ] [ <a href="?DelId=<?php echo $sel_msg_row["id"]; ?>">Del</a> ]</td>
                     </tr>
 <?php
     }
@@ -82,5 +81,3 @@ if ($sel_msg_res->num_rows > 0) {
 
 </body>
 </html>
-
-
