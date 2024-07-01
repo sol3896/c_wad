@@ -9,7 +9,7 @@
                 <li><a href="product.php">Products</a></li>
                 <li><a href="register.php">Register</a></li>
                 <li><a href="view_messages.php">message</a></li>
-                <li><a href="feedback_message.php">FeedMessage</a></li>
+                <li><a href="view_feedback.php">FeedMessage</a></li>
 
             </ul>
         </nav>
