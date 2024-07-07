@@ -30,13 +30,15 @@ CREATE TABLE IF NOT EXISTS users (
     password VARCHAR(255) NOT NULL,
     signup_date DATETIME DEFAULT CURRENT_TIMESTAMP
 );
-CREATE TABLE IF NOT EXISTS products (
-    id INT AUTO_INCREMENT PRIMARY KEY,
-    type VARCHAR(100) NOT NULL,
-    model VARCHAR(100) NOT NULL,
-    name VARCHAR(100) NOT NULL,
-    price DECIMAL(10, 2) NOT NULL,
-    image_path VARCHAR(255) NOT NULL,
-    description TEXT,
-    date_added TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+
+CREATE TABLE IF NOT EXISTS `products` (
+    `id` INT(11) AUTO_INCREMENT PRIMARY KEY,
+    `type` VARCHAR(50) NOT NULL,
+    `model` VARCHAR(50) NOT NULL,
+    `name` VARCHAR(100) NOT NULL,
+    `price` DECIMAL(10,2) NOT NULL,
+    `image_path` VARCHAR(255) NOT NULL,
+    `description` TEXT NOT NULL,
+    `is_featured` TINYINT(1) DEFAULT 0,
+    `date_added` TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );

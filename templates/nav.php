@@ -11,7 +11,7 @@
                 <li><a href="view_messages.php">message</a></li>
                 <li><a href="view_feedback.php">FeedMessage</a></li>
                 <li><a href="view_users.php">ViewUser</a></li>
-                <li><a href="view_product.php">viewProduct</a></li>
+                <li><a href="view_products.php">viewProduct</a></li>
 
 
             </ul>
