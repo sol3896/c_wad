@@ -50,7 +50,7 @@ require_once("dbconnections.php");
                     <td>I2!g2</td>
                     <td>Monitor</td>
                 </tr>
-                
+
                 <!-- Dynamic Product Entries -->
                 <?php
                 // Fetch products from the database
@@ -116,7 +116,7 @@ require_once("dbconnections.php");
                     echo '<img src="' . $featured_product['image_path'] . '" alt="' . $featured_product['name'] . '">';
                     echo '<h3>' . $featured_product['name'] . ' - $' . $featured_product['price'] . '</h3>';
                     echo '<div class="reviews">';
-                    echo '<h4>Customer Reviews</h4>';
+                    echo '<h4>Description</h4>';
                     echo '<p>' . $featured_product['description'] . '</p>';
                     echo '</div>';
                     echo '</div>';
@@ -131,3 +131,4 @@ require_once("dbconnections.php");
     <?php include_once("templates/footer.php");?>
 </body>
 </html>
+
